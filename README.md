@@ -40,4 +40,27 @@
   ![Screenshot from 2023-04-16 19-08-59](https://user-images.githubusercontent.com/61527863/235322630-950c4e40-8bf8-49a7-a22a-ed4c1ff1ec31.png)
 
   ![Screenshot from 2023-04-16 19-11-48](https://user-images.githubusercontent.com/61527863/235322632-3f55c4f0-51ab-4036-a9f4-9b3d89b71d97.png)
+  
+  - Por último se realizó el análisis de los datos en tableau:
+
+  ![Screenshot from 2023-05-03 21-10-27](https://github.com/Pjvl99/CovidAnalysis/assets/61527863/9181c9ac-f4c8-4618-9a8e-171bd446c874)
+  
+  ![Screenshot from 2023-05-03 21-31-50](https://github.com/Pjvl99/CovidAnalysis/assets/61527863/2982e5f6-26de-4d0d-9082-fe8ec4b831f4)
+
+  ![Screenshot from 2023-05-03 22-01-13](https://github.com/Pjvl99/CovidAnalysis/assets/61527863/2ec05f19-1a37-4fdd-b5ef-d4caf07b44a9)
+
+  ![Screenshot from 2023-05-10 20-29-33](https://github.com/Pjvl99/CovidAnalysis/assets/61527863/5d7245f9-538c-4d85-8a61-28e7814857a5)
+  
+  ![Screenshot from 2023-05-03 21-52-19](https://github.com/Pjvl99/CovidAnalysis/assets/61527863/0a3677d8-1cb5-4e27-8d0e-f42eaa1e77e7)
+
+  
+  
+
+  
+
+  
+
+  
+  
+
 
