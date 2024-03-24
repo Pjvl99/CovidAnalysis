@@ -1,47 +1,47 @@
-# CovidAnalysis
+#CovidAnalysis
 
-- Este proyecto consiste en un ETL con datos crudos de diferentes páginas (kaggle, us.gov, etc), con el objetivo final de realizar un análisis del covid-19 en la economía de Estados Unidos.
+- This project consists of an ETL with raw data from different pages (kaggle, us.gov, etc.), with the final objective of carrying out an analysis of covid-19 in the United States economy.
 
-- Pasos para correr el proyecto:
+- Steps to run the project:
 
-  1. Tener instalado Talend Open Studio for Big Data (https://sourceforge.net/projects/talend-bigdata/)
-  2. Para correr el proyecto se debe importar (el LOCAL_PROJECT) desde Talend y luego correr, para ajustarlo a tus datos se deben utilizar las variables de contexto, en el apartado context abajo de jobs.
-  3. Para montar un ambiente de hadoop para el proyecto, se utilizo hortonworks de cloudera.
+   1. Have Talend Open Studio for Big Data installed (https://sourceforge.net/projects/talend-bigdata/)
+   2. To run the project you must import (the LOCAL_PROJECT) from Talend and then run, to adjust it to your data you must use the context variables, in the context section below jobs.
+   3. To set up a hadoop environment for the project, cloudera's hortonworks was used.
 
-- La herramienta para hacer la limpieza de datos en este proyecto fue: Talend Open Studio, acá hay un ejemplo de como se ven los jobs de limpieza en la UI de talend.
+- The tool to do data cleaning in this project was: Talend Open Studio, here is an example of what the cleaning jobs look like in the Talend UI.
   
 ![Screenshot from 2023-04-15 13-47-40](https://user-images.githubusercontent.com/61527863/235322452-37f095c9-070b-47cf-84bb-f80fc98b1c0d.png)
 
-  - Para el modelado de datos se utilizo un diagrama tipo snowflake para el data warehouse:
+  - For data modeling, a snowflake diagram was used for the data warehouse:
   
   
 ![Screenshot from 2023-04-15 13-48-14](https://user-images.githubusercontent.com/61527863/235322473-36004879-0c22-471f-90d5-81c0c30bdc26.png)
 
-  - El objetivo de este proyecto era poder subirlos a hdfs para poder darles un mejor tratamiento a los datos, acá hay un ejemplo de la creación de carpetas en hdfs para los datos.
+  - The objective of this project was to be able to upload them to HDFS in order to give better treatment to the data. Here is an example of creating folders in HDFS for the data.
   
   ![Screenshot from 2023-04-15 14-27-01](https://user-images.githubusercontent.com/61527863/235322500-4aa88e49-6ad7-420e-b5fe-55a48b791805.png)
 
   ![Screenshot from 2023-04-15 14-27-09](https://user-images.githubusercontent.com/61527863/235322513-d2a4b31a-a1bd-40f5-8123-439b5ec40c24.png)
 
-  - Acá hay un ejemplo de un job para la limpieza de datos, donde se aplican mapas y filtros para tomar los datos mas importantes del dataset, con el objetivo de subir esos datos a hdfs.
+  - Here is an example of a data cleaning job, where maps and filters are applied to take the most important data from the dataset, with the aim of uploading that data to HDFS.
   
   ![Screenshot from 2023-04-15 14-52-25](https://user-images.githubusercontent.com/61527863/235322538-cab81986-ab28-453c-9336-802e592ee5c0.png)
   
-  - Un ejemplo de como se ven las carpetas con datos en hdfs:
+  - An example of what the folders with data in hdfs look like:
   
   ![Screenshot from 2023-04-15 14-54-01](https://user-images.githubusercontent.com/61527863/235322596-2e880e9a-0fcf-41dd-b514-79808104bfa0.png)
   
-  - Una vez se ingestó la data en hdfs, se procedió a crear el data warehouse en hive, acá hay un ejemplo de una consulta
+  - Once the data was ingested into hdfs, the data warehouse was created in hive, here is an example of a query
   
   ![Screenshot from 2023-04-15 18-03-12](https://user-images.githubusercontent.com/61527863/235322570-638d2328-2325-4857-8bcc-c5e39c4b87c9.png)
   
-  - Se realizaron breves análisis a los datos utilizando spark sql:
+  - Brief analyzes were performed on the data using spark sql:
   
   ![Screenshot from 2023-04-16 19-08-59](https://user-images.githubusercontent.com/61527863/235322630-950c4e40-8bf8-49a7-a22a-ed4c1ff1ec31.png)
 
   ![Screenshot from 2023-04-16 19-11-48](https://user-images.githubusercontent.com/61527863/235322632-3f55c4f0-51ab-4036-a9f4-9b3d89b71d97.png)
   
-  - Por último se realizó el análisis de los datos en tableau:
+  - Finally, the data analysis was carried out in tableau:
 
   ![Screenshot from 2023-05-03 21-10-27](https://github.com/Pjvl99/CovidAnalysis/assets/61527863/9181c9ac-f4c8-4618-9a8e-171bd446c874)
   
