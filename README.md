@@ -2,6 +2,10 @@
 
 - This project consists of an ETL with raw data from different pages (kaggle, us.gov, etc.), with the final objective of carrying out an analysis of covid-19 in the United States economy.
 
+
+- Diagram:
+   - ![CovidAnalysis](https://github.com/Pjvl99/CovidAnalysis/assets/61527863/2b2505a0-509a-431c-ac8f-a9c219028cdf)
+
 - Steps to run the project:
 
    1. Have Talend Open Studio for Big Data installed (https://sourceforge.net/projects/talend-bigdata/)
