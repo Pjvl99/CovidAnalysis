@@ -4,7 +4,7 @@
 
 
 - Diagram:
-   - ![CovidAnalysis](https://github.com/Pjvl99/CovidAnalysis/assets/61527863/2b2505a0-509a-431c-ac8f-a9c219028cdf)
+![CovidAnalysis](https://github.com/Pjvl99/CovidAnalysis/assets/61527863/2b2505a0-509a-431c-ac8f-a9c219028cdf)
 
 - Steps to run the project:
 
